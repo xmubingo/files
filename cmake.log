@@ -1,0 +1,245 @@
+-- Boost version: 1.55.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+-- Found gflags  (include: /home/vis/lixubin/caffe-soft-bin/gflags/include, library: /home/vis/lixubin/caffe-soft-bin/gflags/lib)
+-- Found glog    (include: /home/vis/lixubin/caffe-soft-bin/glog/include, library: /home/vis/lixubin/caffe-soft-bin/glog/lib)
+-- Found PROTOBUF Compiler: /home/vis/lixubin/common/bin/protoc
+-- Found lmdb    (include: /home/vis/lixubin/caffe-soft-bin/lmdb/include, library: /home/vis/lixubin/caffe-soft-bin/lmdb/lib)
+-- Found LevelDB (include: /home/vis/lixubin/common/include, library: /home/vis/lixubin/common/lib/libleveldb.so)
+-- Found Snappy  (include: /home/vis/lixubin/caffe-soft-bin/snappy/include, library: /home/vis/lixubin/caffe-soft-bin/snappy/lib)
+-- CUDA detected: 7.5
+-- Added CUDA NVCC flags for: sm_35
+-- Cuda + Boost 1.55: Applying noinline work around
+-- OpenCV found (/home/vis/lixubin/caffe-soft-bin/opencv-2.4.10/share/OpenCV)
+-- Found MKL (include: /home/vis/intel/mkl/include, lib: /home/vis/intel/mkl/lib/intel64/libmkl_rt.so
+-- NumPy ver. 1.9.0 found (include: /home/vis/lixubin/caffe-soft-bin/anaconda/lib/python2.7/site-packages/numpy/core/include)
+-- Boost version: 1.55.0
+-- Found the following Boost libraries:
+--   python
+-- Detected Doxygen OUTPUT_DIRECTORY: ./doxygen/
+-- 
+-- ******************* Caffe Configuration Summary *******************
+-- General:
+--   Version           :   <TODO> (Caffe doesn't declare its version in headers)
+--   Git               :   unknown
+--   System            :   Linux
+--   C++ compiler      :   /usr/bin/c++
+--   Release CXX flags :   -O3 -DNDEBUG -fPIC -Wall -Wno-sign-compare -Wno-uninitialized
+--   Debug CXX flags   :   -g -fPIC -Wall -Wno-sign-compare -Wno-uninitialized
+--   Build type        :   Release
+-- 
+--   BUILD_SHARED_LIBS :   ON
+--   BUILD_python      :   ON
+--   BUILD_matlab      :   OFF
+--   BUILD_docs        :   ON
+--   CPU_ONLY          :   OFF
+-- 
+-- Dependencies:
+--   BLAS              :   Yes (mkl)
+--   Boost             :   Yes (ver. 1.55)
+--   glog              :   Yes
+--   gflags            :   Yes
+--   protobuf          :   Yes (ver. 2.5.0)
+--   lmdb              :   Yes (ver. 0.9.14)
+--   Snappy            :   Yes (ver. 1.1.1)
+--   LevelDB           :   Yes (ver. 1.9)
+--   OpenCV            :   Yes (ver. 2.4.10)
+--   CUDA              :   Yes (ver. 7.5)
+-- 
+-- NVIDIA CUDA:
+--   Target GPU(s)     :   Auto
+--   GPU arch(s)       :   sm_35
+--   cuDNN             :   Not found
+-- 
+-- Python:
+--   Interpreter       :   /home/vis/lixubin/caffe-soft-bin/anaconda/bin/python2.7 (ver. 2.7.8)
+--   Libraries         :   /home/vis/lixubin/common/lib/libpython2.7.so (ver 2.7.3)
+--   NumPy             :   /home/vis/lixubin/caffe-soft-bin/anaconda/lib/python2.7/site-packages/numpy/core/include (ver 1.9.0)
+-- 
+-- Documentaion:
+--   Doxygen           :   /usr/bin/doxygen (1.6.1)
+--   config_file       :   /home/vis/lixubin/gitlab/caffe-mpi/caffe-action_recog_cmake/.Doxyfile
+-- 
+-- Install:
+--   Install path      :   /home/vis/lixubin/gitlab/caffe-mpi/caffe-action_recog_cmake/install
+-- 
+-- Configuring done
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test.testbin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "caffe.bin" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "compute_image_mean" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_imageset" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "device_query" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "extract_features" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "finetune_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "net_speed_benchmark" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "test_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "train_net" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_binary" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "upgrade_net_proto_text" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "classification" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_cifar_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "convert_mnist_siamese_data" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "pycaffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "pycaffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/glog/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "pycaffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/gflags/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "pycaffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/lmdb/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "pycaffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/snappy/lib".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "pycaffe" requests linking to directory "/home/vis/lixubin/caffe-soft-bin/boost/lib".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /home/vis/lixubin/gitlab/caffe-mpi/caffe-action_recog_cmake
